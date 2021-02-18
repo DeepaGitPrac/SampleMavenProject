@@ -9,7 +9,7 @@ public class TestChromeDriver {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
 		Thread.sleep(4000);
-	
+	System.out.println("Intializing chrome driver");
 	}
 
 }
